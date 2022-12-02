@@ -1,5 +1,5 @@
 #include <iostream>
-#include "PrimaLibreria.h"
+#include "lib.h"
 int main(){
   int n=0;
     cin>>n;
