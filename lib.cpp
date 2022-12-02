@@ -1,11 +1,15 @@
 #include "PrimaLibreria.h"
 bool numeroprimo(int num) {
-    int divisore = 2;
-    while (divisore < num) {
+    int divisore = 1, conta=0;
+    while (conta<=1 && divisore<=num/2) {
         if (num%divisore==0) {
-            return false;
+            conta++;
         }
-        divisore++;
+       divisore++;
     }
+    if (conta==1){
     return true;
+}
+    else 
+        return false;
 }
