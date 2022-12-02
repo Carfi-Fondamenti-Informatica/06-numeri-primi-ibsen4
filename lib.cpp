@@ -1,4 +1,4 @@
-#include "PrimaLibreria.h"
+#include "lib.h"
 bool numeroprimo(int num) {
     int divisore = 1, conta=0;
     while (conta<=1 && divisore<=num/2) {
